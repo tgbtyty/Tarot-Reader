@@ -1,0 +1,70 @@
+
+{
+  "stats": {
+	"Hope": {
+	  "description": "The client's level of optimism and belief in positive outcomes. High is hopeful, low is despairing.",
+	  "min": -70,
+	  "max": 40
+	},
+	"Rationality": {
+	  "description": "How much the client relies on logic versus emotion. High is logical and analytical, low is emotionally driven.",
+	  "min": -60,
+	  "max": 60
+	},
+	"Impulsivity": {
+	  "description": "The client's tendency to act on sudden urges without forethought. High is reckless, low is cautious.",
+	  "min": -20,
+	  "max": 80
+	},
+	"Confidence": {
+	  "description": "The client's self-esteem and belief in their own abilities. High is confident, low is filled with self-doubt.",
+	  "min": -80,
+	  "max": 30
+	},
+	"Anxiety": {
+	  "description": "The client's general level of worry, fear, and nervousness. High is perpetually stressed, low is calm.",
+	  "min": 10,
+	  "max": 90
+	},
+	"Sociability": {
+	  "description": "The client's desire for and comfort with social interaction. High is extroverted, low is introverted and withdrawn.",
+	  "min": -80,
+	  "max": 80
+	},
+	"Trust": {
+	  "description": "The client's willingness to believe in the good intentions of others. High is trusting/gullible, low is suspicious.",
+	  "min": -70,
+	  "max": 20
+	},
+	"Cynicism": {
+	  "description": "The client's belief that people are motivated by self-interest. High is cynical, low is naive.",
+	  "min": 0,
+	  "max": 80
+	},
+	"Spirituality": {
+	  "description": "The client's connection to the metaphysical or non-material. High is spiritual, low is materialistic and grounded.",
+	  "min": -70,
+	  "max": 70
+	},
+	"Resilience": {
+	  "description": "The client's ability to recover from setbacks and adversity. High is tough and bounces back, low is fragile.",
+	  "min": -60,
+	  "max": 20
+	},
+	"Patience": {
+	  "description": "The client's ability to tolerate delays, problems, or suffering without becoming annoyed. High is patient, low is irritable.",
+	  "min": -80,
+	  "max": 10
+	},
+	"Ambition": {
+	  "description": "The client's drive to achieve success, power, or recognition. High is ambitious, low is complacent.",
+	  "min": -50,
+	  "max": 70
+	},
+	"Empathy": {
+	  "description": "The client's ability to understand and share the feelings of others. High is empathetic, low is cold or self-absorbed.",
+	  "min": -20,
+	  "max": 70
+	}
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "outcomes": [
+	{
+	  "outcome_id": "revenge_empty",
+	  "description": "The client exacted their revenge perfectly, but the victory felt hollow, leaving them more empty than before.",
+	  "likelihood_formula": {"Ambition": 1.0, "Rationality": 0.8, "Empathy": -1.2, "Hope": -0.5}
+	},
+	{
+	  "outcome_id": "revenge_disaster",
+	  "description": "The client's fiery attempt at revenge backfired spectacularly, worsening their situation and bringing new troubles upon them.",
+	  "likelihood_formula": {"Impulsivity": 1.2, "Ambition": 0.8, "Rationality": -1.0}
+	},
+	{
+	  "outcome_id": "forgiveness_peace",
+	  "description": "Instead of seeking revenge, the client chose the difficult path of forgiveness, finding a profound sense of peace and freedom.",
+	  "likelihood_formula": {"Hope": 1.0, "Empathy": 1.2, "Resilience": 0.8, "Ambition": -0.5}
+	},
+	{
+	  "outcome_id": "isolation_withdrawal",
+	  "description": "Overwhelmed, the client withdrew from the world, cutting off friends and family to live in quiet, lonely isolation.",
+	  "likelihood_formula": {"Anxiety": 1.0, "Sociability": -1.2, "Hope": -0.8, "Confidence": -0.6}
+	},
+	{
+	  "outcome_id": "rock_bottom_rebirth",
+	  "description": "After hitting rock bottom, the client found the clarity to ask for help, beginning the slow but steady journey back to the light.",
+	  "likelihood_formula": {"Resilience": 1.2, "Sociability": 0.5, "Hope": -0.8, "Ambition": -0.5}
+	},
+	{
+	  "outcome_id": "strength_in_surrender",
+	  "description": "The client stopped fighting the current and, in surrendering to the situation, found an unexpected strength and a new path forward.",
+	  "likelihood_formula": {"Spirituality": 1.2, "Patience": 0.8, "Resilience": 0.5, "Ambition": -1.0}
+	},
+	{
+	  "outcome_id": "risk_success",
+	  "description": "They took a terrifying leap of faith, and the risk paid off beyond their wildest dreams, transforming their life for the better.",
+	  "likelihood_formula": {"Impulsivity": 1.0, "Confidence": 1.2, "Hope": 0.8, "Anxiety": -0.5}
+	},
+	{
+	  "outcome_id": "risk_failure_lesson",
+	  "description": "The client's gamble failed, resulting in a significant loss. Yet, in the quiet reflection of failure, they learned a priceless lesson.",
+	  "likelihood_formula": {"Impulsivity": 1.0, "Resilience": 1.2, "Rationality": 0.5, "Confidence": -0.5}
+	},
+	{
+	  "outcome_id": "safe_modest_success",
+	  "description": "Choosing the safer path, the client made steady, if slow, progress and built a secure, stable foundation for their future.",
+	  "likelihood_formula": {"Rationality": 1.2, "Patience": 0.8, "Anxiety": 0.5, "Impulsivity": -1.0}
+	},
+	{
+	  "outcome_id": "safe_regret",
+	  "description": "They played it safe and avoided disaster, but now live with the gnawing regret of a monumental opportunity missed.",
+	  "likelihood_formula": {"Anxiety": 1.2, "Rationality": 0.8, "Confidence": -1.0, "Hope": -0.5}
+	},
+	{
+	  "outcome_id": "vulnerable_connection",
+	  "description": "They lowered their defenses and opened their heart. In that vulnerability, they forged a deep and truly rewarding connection.",
+	  "likelihood_formula": {"Trust": 1.2, "Empathy": 1.0, "Hope": 0.8, "Cynicism": -1.0}
+	},
+	{
+	  "outcome_id": "vulnerable_betrayal",
+	  "description": "They chose to be vulnerable and were cruelly betrayed again, reinforcing their belief that it's better to keep one's heart guarded.",
+	  "likelihood_formula": {"Trust": 1.0, "Hope": 0.5, "Anxiety": 0.8, "Cynicism": -1.2}
+	},
+	{
+	  "outcome_id": "guarded_loneliness",
+	  "description": "The client kept their guard up, successfully protecting themselves from pain but ensuring a future of profound loneliness.",
+	  "likelihood_formula": {"Cynicism": 1.2, "Anxiety": 0.8, "Sociability": -1.0, "Trust": -1.0}
+	},
+	{
+	  "outcome_id": "decisive_action",
+	  "description": "Armed with new clarity, the client made a clear and decisive choice that set their life on a positive new trajectory.",
+	  "likelihood_formula": {"Confidence": 1.2, "Rationality": 0.8, "Hope": 0.6, "Anxiety": -0.8}
+	},
+	{
+	  "outcome_id": "rash_decision",
+	  "description": "Feeling pressured to act, the client made a rash decision based on emotion, which only served to complicate their problems.",
+	  "likelihood_formula": {"Impulsivity": 1.2, "Anxiety": 0.6, "Rationality": -1.0, "Patience": -0.8}
+	},
+	{
+	  "outcome_id": "paralysis_by_analysis",
+	  "description": "Paralyzed by fear and indecision, the client failed to act at all, and the situation resolved itself in the worst possible way.",
+	  "likelihood_formula": {"Anxiety": 1.2, "Rationality": 0.5, "Confidence": -1.0, "Impulsivity": -1.0}
+	},
+	{
+	  "outcome_id": "new_passion",
+	  "description": "Turning away from the problem, the client unexpectedly discovered a new hobby or passion that brought them unexpected joy.",
+	  "likelihood_formula": {"Spirituality": 1.0, "Impulsivity": 0.8, "Hope": 0.6, "Ambition": -0.6}
+	},
+	{
+	  "outcome_id": "reconnection",
+	  "description": "The client reached out to an estranged friend or family member, and the difficult conversation led to a heartfelt reunion.",
+	  "likelihood_formula": {"Sociability": 1.2, "Empathy": 1.0, "Hope": 0.8, "Cynicism": -0.5}
+	},
+	{
+	  "outcome_id": "self_care_focus",
+	  "description": "Deciding the external problem could wait, the client focused on their own well-being, taking time to heal, rest, and recover.",
+	  "likelihood_formula": {"Patience": 1.0, "Resilience": 0.8, "Empathy": 0.6, "Ambition": -1.0}
+	},
+	{
+	  "outcome_id": "chaotic_spiral",
+	  "description": "The client threw caution to the wind, embracing a chaotic spiral of impulsive decisions that left their life in disarray.",
+	  "likelihood_formula": {"Impulsivity": 1.2, "Anxiety": 0.8, "Hope": -1.0, "Rationality": -1.0, "Resilience": -0.8}
+	}
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "events": [
+	{
+	  "event_id": "house_fire",
+	  "positivity": -95,
+	  "descriptions": {
+		"subject_focused": "My home...",
+		"action_focused": "...recently burned to the ground.",
+		"feeling_focused": "...and now I've lost everything I ever owned."
+	  },
+	  "compatible_action_ids": ["give_up", "overwhelmed_start", "general_guidance", "find_peace"],
+	  "compatible_outcome_ids": ["isolation_withdrawal", "rock_bottom_rebirth", "paralysis_by_analysis", "self_care_focus", "strength_in_surrender"]
+	},
+	{
+	  "event_id": "job_loss",
+	  "positivity": -80,
+	  "descriptions": {
+		"subject_focused": "My career...",
+		"action_focused": "...came to an abrupt end after I was laid off.",
+		"feeling_focused": "...and I have no idea how I'm going to make ends meet."
+	  },
+	  "compatible_action_ids": ["general_guidance", "overwhelmed_start", "give_up", "find_peace"],
+	  "compatible_outcome_ids": ["rash_decision", "paralysis_by_analysis", "new_passion", "self_care_focus", "safe_regret"]
+	},
+	{
+	  "event_id": "breakup",
+	  "positivity": -90,
+	  "descriptions": {
+		"subject_focused": "The person I thought was my soulmate...",
+		"action_focused": "...told me they don't love me anymore.",
+		"feeling_focused": "...and now my heart is completely broken."
+	  },
+	  "compatible_action_ids": ["find_peace", "give_up", "self_protection", "question_trust"],
+	  "compatible_outcome_ids": ["isolation_withdrawal", "guarded_loneliness", "rock_bottom_rebirth", "reconnection", "vulnerable_betrayal"]
+	},
+	{
+	  "event_id": "betrayal",
+	  "positivity": -85,
+	  "descriptions": {
+		"subject_focused": "Someone I trusted with my life...",
+		"action_focused": "...went behind my back and betrayed me.",
+		"feeling_focused": "...and I feel like I can never trust anyone again."
+	  },
+	  "compatible_action_ids": ["seek_revenge", "question_trust", "self_protection", "find_peace"],
+	  "compatible_outcome_ids": ["revenge_empty", "revenge_disaster", "forgiveness_peace", "guarded_loneliness", "paralysis_by_analysis"]
+	},
+	{
+	  "event_id": "illness",
+	  "positivity": -90,
+	  "descriptions": {
+		"subject_focused": "My health...",
+		"action_focused": "...has taken a turn for the worse with a serious diagnosis.",
+		"feeling_focused": "...and I'm terrified of what's going to happen to me."
+	  },
+	  "compatible_action_ids": ["find_peace", "give_up", "general_guidance", "self_protection"],
+	  "compatible_outcome_ids": ["strength_in_surrender", "self_care_focus", "reconnection", "rock_bottom_rebirth", "isolation_withdrawal"]
+	},
+	{
+	  "event_id": "money_windfall",
+	  "positivity": 80,
+	  "descriptions": {
+		"subject_focused": "My entire financial situation...",
+		"action_focused": "...has changed overnight after I came into a lot of money.",
+		"feeling_focused": "...and now I have more wealth than I ever dreamed of."
+	  },
+	  "compatible_action_ids": ["seize_opportunity", "take_risk", "general_guidance", "self_protection"],
+	  "compatible_outcome_ids": ["risk_success", "risk_failure_lesson", "safe_modest_success", "safe_regret", "chaotic_spiral", "decisive_action"]
+	},
+	{
+	  "event_id": "dream_job",
+	  "positivity": 90,
+	  "descriptions": {
+		"subject_focused": "All of my hard work...",
+		"action_focused": "...finally paid off and I was offered my dream job.",
+		"feeling_focused": "...and I feel like my professional life is just beginning."
+	  },
+	  "compatible_action_ids": ["seize_opportunity", "take_risk", "general_guidance"],
+	  "compatible_outcome_ids": ["risk_success", "risk_failure_lesson", "safe_modest_success", "decisive_action", "paralysis_by_analysis"]
+	},
+	{
+	  "event_id": "new_love",
+	  "positivity": 95,
+	  "descriptions": {
+		"subject_focused": "My love life...",
+		"action_focused": "...has been completely transformed by someone new.",
+		"feeling_focused": "...and I'm starting to believe they might be the one."
+	  },
+	  "compatible_action_ids": ["be_vulnerable", "question_trust", "take_risk", "seize_opportunity"],
+	  "compatible_outcome_ids": ["vulnerable_connection", "vulnerable_betrayal", "risk_success", "safe_regret", "decisive_action"]
+	},
+	{
+	  "event_id": "relocation",
+	  "positivity": 10,
+	  "descriptions": {
+		"subject_focused": "My whole life...",
+		"action_focused": "...is being packed into boxes for a move to a new city.",
+		"feeling_focused": "...and I'm leaving everything I've ever known behind."
+	  },
+	  "compatible_action_ids": ["general_guidance", "overwhelmed_start", "take_risk", "be_vulnerable"],
+	  "compatible_outcome_ids": ["new_passion", "isolation_withdrawal", "decisive_action", "risk_failure_lesson", "reconnection"]
+	},
+	{
+	  "event_id": "family_wedding",
+	  "positivity": 40,
+	  "descriptions": {
+		"subject_focused": "My family...",
+		"action_focused": "...is in the middle of planning a massive wedding.",
+		"feeling_focused": "...and I'm caught between the joy and the overwhelming stress of it all."
+	  },
+	  "compatible_action_ids": ["find_peace", "self_protection", "general_guidance"],
+	  "compatible_outcome_ids": ["reconnection", "forgiveness_peace", "chaotic_spiral", "self_care_focus"]
+	}
+  ]
+}

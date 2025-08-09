@@ -1,0 +1,84 @@
+{
+  "actions": [
+	{
+	  "action_id": "general_guidance",
+	  "descriptions": [
+		"I just don't know what I should do now.",
+		"What should my next step even be?",
+		"I came here looking for any kind of direction."
+	  ]
+	},
+	{
+	  "action_id": "overwhelmed_start",
+	  "descriptions": [
+		"Where do I even begin to pick up the pieces?",
+		"There are too many things to do, I can't think straight.",
+		"How am I supposed to start dealing with all of this?"
+	  ]
+	},
+	{
+	  "action_id": "seek_revenge",
+	  "descriptions": [
+		"I want to make them pay for what they did. Should I?",
+		"Part of me really wants to get revenge, but I'm not sure.",
+		"Is it wrong that I want to see them suffer for this?"
+	  ]
+	},
+	{
+	  "action_id": "give_up",
+	  "descriptions": [
+		"Honestly, I'm thinking of just giving up on everything.",
+		"What's the point in even trying to fight this anymore?",
+		"Maybe it would be easier to just let it all fall apart."
+	  ]
+	},
+	{
+	  "action_id": "seize_opportunity",
+	  "descriptions": [
+		"This feels like a huge opportunity. How can I make the most of it?",
+		"I don't want to waste this chance. What's the right move?",
+		"How can I turn this situation to my greatest advantage?"
+	  ]
+	},
+	{
+	  "action_id": "take_risk",
+	  "descriptions": [
+		"I have a chance to take a huge risk, and I'm tempted. Should I?",
+		"I'm considering doing something wild and completely unpredictable.",
+		"Should I play it safe, or bet everything on this one shot?"
+	  ]
+	},
+	{
+	  "action_id": "find_peace",
+	  "descriptions": [
+		"How can I ever find peace with what has happened?",
+		"I just want to be able to move on, but I don't know how.",
+		"What do I need to do to truly accept this and let go?"
+	  ]
+	},
+	{
+	  "action_id": "question_trust",
+	  "descriptions": [
+		"Can I really trust this person or this situation?",
+		"My gut is screaming that something is off. Should I listen?",
+		"I want to believe them, but I'm so scared of being hurt again."
+	  ]
+	},
+	{
+	  "action_id": "be_vulnerable",
+	  "descriptions": [
+		"Should I allow myself to be vulnerable and open my heart to this?",
+		"I'm thinking of letting my guard down for once, but it's terrifying.",
+		"Is it safe for me to lower my defenses right now?"
+	  ]
+	},
+	{
+	  "action_id": "self_protection",
+	  "descriptions": [
+		"How can I protect myself from being hurt like this again?",
+		"I feel like I need to build a wall around myself, but how?",
+		"What's the best way to defend my heart in this situation?"
+	  ]
+	}
+  ]
+}

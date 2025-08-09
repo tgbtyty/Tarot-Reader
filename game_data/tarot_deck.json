@@ -1,0 +1,199 @@
+{
+  "cards": [
+	{
+	  "name": "The Fool",
+	  "number": 0,
+	  "image_path": "res://art/cards/the_fool.png",
+	  "interpretations": [
+		{
+		  "text": "A grand journey begins! Embrace the unknown with joyous faith. The universe supports your first step.",
+		  "effects": {"Hope": 50, "Confidence": 40, "Impulsivity": 30, "Rationality": -20}
+		},
+		{
+		  "text": "You are walking towards a cliff's edge, utterly blind to the danger. Your naivety will be your downfall.",
+		  "effects": {"Anxiety": 60, "Hope": -50, "Confidence": -40, "Cynicism": 30}
+		},
+		{
+		  "text": "A new path is opening, but walk it with awareness. Your fresh perspective is a strength, not a weakness to be exploited.",
+		  "effects": {"Hope": 30, "Confidence": 20, "Rationality": 15}
+		},
+		{
+		  "text": "Your desire for freedom is leading to recklessness. Look before you leap, or the fall will be greater than you can imagine.",
+		  "effects": {"Impulsivity": -40, "Rationality": 30, "Anxiety": 20}
+		},
+		{
+		  "text": "Trust in the flow of life. You don't need a plan for every step; have faith and the path will appear before you.",
+		  "effects": {"Spirituality": 40, "Trust": 30, "Rationality": -30, "Anxiety": -20}
+		},
+		{
+		  "text": "This new beginning will bring new people into your life. Be open and spontaneous in your connections.",
+		  "effects": {"Sociability": 50, "Impulsivity": 20, "Trust": 20}
+		},
+		{
+		  "text": "A foolish financial decision looms. Your spontaneity could lead to great loss if not tempered with a dose of reality.",
+		  "effects": {"Rationality": 40, "Impulsivity": -50, "Anxiety": 30}
+		},
+		{
+		  "text": "Cast off the weight of your past and travel light. The journey ahead is one of self-discovery, not burden.",
+		  "effects": {"Confidence": 35, "Hope": 25, "Resilience": 20, "Anxiety": -15}
+		}
+	  ]
+	},
+	{
+	  "name": "The Magician",
+	  "number": 1,
+	  "image_path": "res://art/cards/the_magician.png",
+	  "interpretations": [
+		{
+		  "text": "You have all the tools and resources you need to succeed. It's time to act and manifest your desires into reality.",
+		  "effects": {"Confidence": 50, "Ambition": 40, "Hope": 30}
+		},
+		{
+		  "text": "Beware of deception. A charismatic figure may be manipulating you, using their skills for selfish gain.",
+		  "effects": {"Trust": -40, "Cynicism": 50, "Anxiety": 30}
+		},
+		{
+		  "text": "Your potential is untapped. You must focus your will and develop your skills to achieve your goals.",
+		  "effects": {"Ambition": 30, "Confidence": -20, "Rationality": 20}
+		},
+		{
+		  "text": "Communication is your greatest asset right now. Speak your truth clearly and persuasively.",
+		  "effects": {"Sociability": 40, "Confidence": 30}
+		},
+		{
+		  "text": "You are trying to force an outcome that isn't meant to be. This is trickery, not true power. Let it go.",
+		  "effects": {"Ambition": -30, "Spirituality": 20, "Rationality": -20}
+		},
+		{
+		  "text": "Combine your spiritual insights with practical action. This is the key to making real-world change.",
+		  "effects": {"Spirituality": 30, "Rationality": 30, "Ambition": 25}
+		},
+		{
+		  "text": "Don't get lost in planning. The time for thinking is over. Inspired, immediate action is required now.",
+		  "effects": {"Impulsivity": 30, "Confidence": 20, "Rationality": -25}
+		},
+		{
+		  "text": "You feel powerless, but it's an illusion. Acknowledge the skills you already possess and build from there.",
+		  "effects": {"Confidence": 40, "Hope": 20, "Resilience": 15}
+		}
+	  ]
+	},
+	{
+	  "name": "The High Priestess",
+	  "number": 2,
+	  "image_path": "res://art/cards/the_high_priestess.png",
+	  "interpretations": [
+		{
+		  "text": "Look beyond the obvious. Your intuition is trying to tell you something important. Trust your inner voice.",
+		  "effects": {"Spirituality": 50, "Trust": 30, "Rationality": -40}
+		},
+		{
+		  "text": "There are secrets being kept from you. Information is hidden, and you cannot proceed until it is revealed.",
+		  "effects": {"Anxiety": 40, "Trust": -50, "Cynicism": 30}
+		},
+		{
+		  "text": "This is a time for patience and reflection, not action. The answers you seek are within you, not in the outside world.",
+		  "effects": {"Patience": 40, "Impulsivity": -30, "Sociability": -20}
+		},
+		{
+		  "text": "You are disconnected from your intuition. Your logical mind is overriding the wisdom of your subconscious.",
+		  "effects": {"Spirituality": -40, "Rationality": 30}
+		},
+		{
+		  "text": "Embrace the mystery. Not everything needs to be analyzed and understood to be true.",
+		  "effects": {"Anxiety": -30, "Spirituality": 30, "Hope": 20}
+		},
+		{
+		  "text": "A wise, intuitive person will soon offer you guidance. Be open to their counsel.",
+		  "effects": {"Trust": 30, "Sociability": 20}
+		},
+		{
+		  "text": "Be careful not to become too withdrawn. The inner world is valuable, but you must still live in this one.",
+		  "effects": {"Sociability": 30, "Anxiety": 20, "Spirituality": -20}
+		},
+		{
+		  "text": "Your dreams contain important messages. Pay close attention to them for clues about your situation.",
+		  "effects": {"Spirituality": 35, "Rationality": -20}
+		}
+	  ]
+	},
+	{
+	  "name": "The Emperor",
+	  "number": 4,
+	  "image_path": "res://art/cards/the_emperor.png",
+	  "interpretations": [
+		{
+		  "text": "Take control of your life. It is time to establish structure, order, and discipline to achieve your goals.",
+		  "effects": {"Ambition": 50, "Confidence": 40, "Rationality": 30, "Impulsivity": -40}
+		},
+		{
+		  "text": "Your rigid control is stifling yourself and others. You must learn to be more flexible, or your empire will crumble.",
+		  "effects": {"Empathy": 30, "Ambition": -20, "Patience": -30}
+		},
+		{
+		  "text": "An authority figure—a boss, a father, or a leader—is exerting significant influence over you. You must decide how to respond.",
+		  "effects": {"Anxiety": 20, "Confidence": -20}
+		},
+		{
+		  "text": "Protect your boundaries. Build strong foundations and defend what you have created.",
+		  "effects": {"Resilience": 40, "Confidence": 30, "Sociability": -20}
+		},
+		{
+		  "text": "You are shying away from responsibility. You must step up and become the authority your life needs right now.",
+		  "effects": {"Ambition": 40, "Confidence": 30, "Hope": 20}
+		},
+		{
+		  "text": "Your pursuit of control is causing you to be cold and unfeeling. Do not sacrifice your humanity for power.",
+		  "effects": {"Empathy": -50, "Cynicism": 30, "Rationality": 20}
+		},
+		{
+		  "text": "Long-term strategic planning is needed. Rely on logic and proven methods, not on whims or untested ideas.",
+		  "effects": {"Rationality": 50, "Impulsivity": -40, "Patience": 20}
+		},
+		{
+		  "text": "You are in a position of leadership. You have a duty to rule with fairness, wisdom, and compassion.",
+		  "effects": {"Ambition": 20, "Empathy": 20, "Confidence": 15}
+		}
+	  ]
+	},
+	{
+	  "name": "Death",
+	  "number": 13,
+	  "image_path": "res://art/cards/death.png",
+	  "interpretations": [
+		{
+		  "text": "A necessary and profound ending is here. You must let go of the past to make way for the new.",
+		  "effects": {"Hope": 40, "Resilience": 30, "Anxiety": -30}
+		},
+		{
+		  "text": "You are resisting a crucial change, causing yourself immense suffering. The longer you hold on, the more painful it will be.",
+		  "effects": {"Anxiety": 60, "Resilience": -40, "Patience": -30}
+		},
+		{
+		  "text": "This is not a physical death, but a spiritual transformation. The person you were is ending; a new you is being born.",
+		  "effects": {"Spirituality": 50, "Confidence": 20, "Hope": 30}
+		},
+		{
+		  "text": "Cut the dead wood from your life. End the relationships, jobs, or habits that no longer serve you.",
+		  "effects": {"Ambition": 30, "Resilience": 30, "Sociability": -20}
+		},
+		{
+		  "text": "This sudden, unavoidable loss will be painful, but it is the catalyst for future growth. Grieve, then rebuild.",
+		  "effects": {"Hope": -50, "Anxiety": 50, "Resilience": 25}
+		},
+		{
+		  "text": "A chapter is closing. Acknowledge the finality of it. There is no going back, only forward.",
+		  "effects": {"Rationality": 40, "Hope": -20, "Impulsivity": -20}
+		},
+		{
+		  "text": "Your fear of endings is keeping you stagnant. What you fear most is the very thing that will set you free.",
+		  "effects": {"Anxiety": -40, "Impulsivity": 30, "Hope": 30}
+		},
+		{
+		  "text": "Embrace the cleansing power of this conclusion. It clears the slate, allowing for a completely fresh start.",
+		  "effects": {"Hope": 45, "Confidence": 20, "Ambition": 20}
+		}
+	  ]
+	}
+  ]
+}

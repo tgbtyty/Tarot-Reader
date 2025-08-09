@@ -1,0 +1,104 @@
+{
+  "feelings": [
+	{
+	  "feeling_id": "devastated",
+	  "trigger_condition": { "min": -100, "max": -80 },
+	  "descriptions": [
+		"I feel completely devastated.",
+		"Honestly, I'm just shattered by it all.",
+		"It feels like my whole world has fallen apart.",
+		"I don't think I've ever felt this broken before."
+	  ]
+	},
+	{
+	  "feeling_id": "utterly_lost",
+	  "trigger_condition": { "min": -85, "max": -50 },
+	  "descriptions": [
+		"More than anything, I just feel utterly lost.",
+		"I have no map, no compass, no idea what to do next.",
+		"It feels like the ground has vanished from under me.",
+		"I've completely lost my bearings in life."
+	  ]
+	},
+	{
+	  "feeling_id": "deeply_sad",
+	  "trigger_condition": { "min": -79, "max": -40 },
+	  "descriptions": [
+		"A deep sadness has settled over me.",
+		"I just feel this profound sense of loss.",
+		"The weight of it all is just immense right now.",
+		"I can't seem to shake this incredible sorrow."
+	  ]
+	},
+	{
+	  "feeling_id": "numb",
+	  "trigger_condition": { "min": -60, "max": -25 },
+	  "descriptions": [
+		"I don't really feel anything... just numb.",
+		"It's strange, I know I should be upset, but I'm just empty.",
+		"I feel completely disconnected from everything.",
+		"It's like I'm watching my life happen to someone else."
+	  ]
+	},
+	{
+	  "feeling_id": "overwhelmed",
+	  "trigger_condition": { "min": -30, "max": 30 },
+	  "descriptions": [
+		"To be honest, I'm just completely overwhelmed.",
+		"There's so much happening all at once.",
+		"I feel like I'm drowning in all the details.",
+		"I don't even know where to begin processing it."
+	  ]
+	},
+	{
+	  "feeling_id": "confused",
+	  "trigger_condition": { "min": -20, "max": 40 },
+	  "descriptions": [
+		"Mostly, I'm just confused about the whole thing.",
+		"My feelings about it are a tangled mess.",
+		"I'm not sure what to make of the situation.",
+		"My head is just spinning trying to understand it."
+	  ]
+	},
+	{
+	  "feeling_id": "anxious_hopeful",
+	  "trigger_condition": { "min": 31, "max": 70 },
+	  "descriptions": [
+		"I'm anxious, but strangely hopeful for what's next.",
+		"It's a good thing, but it's also terrifying, you know?",
+		"I feel this bizarre mix of excitement and nervousness.",
+		"I'm optimistic, but also worried I'm going to mess it up."
+	  ]
+	},
+	{
+	  "feeling_id": "hopeful",
+	  "trigger_condition": { "min": 41, "max": 80 },
+	  "descriptions": [
+		"For the first time in a long time, I feel truly hopeful.",
+		"It's given me a renewed sense of optimism about things.",
+		"I'm starting to see a light at the end of the tunnel.",
+		"I have a genuinely good feeling about the future."
+	  ]
+	},
+	{
+	  "feeling_id": "overjoyed",
+	  "trigger_condition": { "min": 71, "max": 90 },
+	  "descriptions": [
+		"I'm just completely and utterly overjoyed.",
+		"I feel like I'm bursting with happiness.",
+		"It really feels like a dream come true.",
+		"I honestly can't stop smiling about it."
+	  ]
+	},
+	{
+	  "feeling_id": "ecstatic",
+	  "trigger_condition": { "min": 85, "max": 100 },
+	  "descriptions": [
+		"'Happy' doesn't even begin to cover it. I'm ecstatic.",
+		"I feel like I'm on top of the entire world.",
+		"This is easily the best thing that's ever happened to me.",
+		"My life has never felt this bright or full of promise."
+	  ]
+	}
+  ]
+}
