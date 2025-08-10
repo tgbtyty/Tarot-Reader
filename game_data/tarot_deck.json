@@ -6,36 +6,36 @@
 	  "image_path": "res://art/cards/the_fool.png",
 	  "interpretations": [
 		{
-		  "text": "A grand journey begins! Embrace the unknown with joyous faith. The universe supports your first step.",
-		  "effects": {"Hope": 50, "Confidence": 40, "Impulsivity": 30, "Rationality": -20}
+		  "text": "Encourage a leap of faith. Tell them to embrace blissful ignorance and trust the universe with boundless hope.",
+		  "effects": {"Hope": 60, "Impulsivity": 40, "Rationality": -50, "Anxiety": -30}
 		},
 		{
-		  "text": "You are walking towards a cliff's edge, utterly blind to the danger. Your naivety will be your downfall.",
-		  "effects": {"Anxiety": 60, "Hope": -50, "Confidence": -40, "Cynicism": 30}
+		  "text": "Warn them of recklessness. Their spontaneity is bordering on dangerous naivety; advise a heavy dose of realism.",
+		  "effects": {"Impulsivity": -50, "Rationality": 60, "Anxiety": 30}
 		},
 		{
-		  "text": "A new path is opening, but walk it with awareness. Your fresh perspective is a strength, not a weakness to be exploited.",
-		  "effects": {"Hope": 30, "Confidence": 20, "Rationality": 15}
+		  "text": "Focus on the beginning of the journey. This is a fresh start, a chance to boost their confidence for the road ahead.",
+		  "effects": {"Confidence": 50, "Hope": 40, "Resilience": 20}
 		},
 		{
-		  "text": "Your desire for freedom is leading to recklessness. Look before you leap, or the fall will be greater than you can imagine.",
-		  "effects": {"Impulsivity": -40, "Rationality": 30, "Anxiety": 20}
+		  "text": "Advise them to be wary of deception. Their trusting nature could be seen as foolishness by those with cynical hearts.",
+		  "effects": {"Trust": -40, "Cynicism": 50, "Rationality": 20}
 		},
 		{
-		  "text": "Trust in the flow of life. You don't need a plan for every step; have faith and the path will appear before you.",
-		  "effects": {"Spirituality": 40, "Trust": 30, "Rationality": -30, "Anxiety": -20}
+		  "text": "Suggest they embrace the unknown with social abandon. New journeys bring new friends if they are sociable and open.",
+		  "effects": {"Sociability": 60, "Impulsivity": 30, "Trust": 20}
 		},
 		{
-		  "text": "This new beginning will bring new people into your life. Be open and spontaneous in your connections.",
-		  "effects": {"Sociability": 50, "Impulsivity": 20, "Trust": 20}
+		  "text": "Interpret their innocence as a pure form of spirituality, unburdened by cynical world-views.",
+		  "effects": {"Spirituality": 50, "Cynicism": -40, "Hope": 20}
 		},
 		{
-		  "text": "A foolish financial decision looms. Your spontaneity could lead to great loss if not tempered with a dose of reality.",
-		  "effects": {"Rationality": 40, "Impulsivity": -50, "Anxiety": 30}
+		  "text": "Frame their journey as one of patient self-discovery, not a frantic, impulsive scramble.",
+		  "effects": {"Patience": 40, "Impulsivity": -30, "Spirituality": 20}
 		},
 		{
-		  "text": "Cast off the weight of your past and travel light. The journey ahead is one of self-discovery, not burden.",
-		  "effects": {"Confidence": 35, "Hope": 25, "Resilience": 20, "Anxiety": -15}
+		  "text": "Caution them that their 'leap of faith' could lead to a disastrous fall. Stoke their anxiety to keep them from the edge.",
+		  "effects": {"Anxiety": 70, "Hope": -60, "Confidence": -40, "Impulsivity": -20}
 		}
 	  ]
 	},
@@ -45,36 +45,36 @@
 	  "image_path": "res://art/cards/the_magician.png",
 	  "interpretations": [
 		{
-		  "text": "You have all the tools and resources you need to succeed. It's time to act and manifest your desires into reality.",
-		  "effects": {"Confidence": 50, "Ambition": 40, "Hope": 30}
+		  "text": "Empower them. Remind them they have all the tools; they just need the ambition and confidence to manifest their will.",
+		  "effects": {"Ambition": 60, "Confidence": 50, "Hope": 20}
 		},
 		{
-		  "text": "Beware of deception. A charismatic figure may be manipulating you, using their skills for selfish gain.",
-		  "effects": {"Trust": -40, "Cynicism": 50, "Anxiety": 30}
+		  "text": "Warn of manipulation. A skilled, charismatic person may be using their power for selfish ends; foster a healthy cynicism.",
+		  "effects": {"Cynicism": 60, "Trust": -50, "Anxiety": 20}
 		},
 		{
-		  "text": "Your potential is untapped. You must focus your will and develop your skills to achieve your goals.",
-		  "effects": {"Ambition": 30, "Confidence": -20, "Rationality": 20}
+		  "text": "Focus on their untapped potential. Urge them to apply rational thought and discipline to turn their raw talent into real skill.",
+		  "effects": {"Rationality": 50, "Ambition": 30, "Patience": 20}
 		},
 		{
-		  "text": "Communication is your greatest asset right now. Speak your truth clearly and persuasively.",
-		  "effects": {"Sociability": 40, "Confidence": 30}
+		  "text": "Interpret the card as a sign of pure willpower. Boost their resilience and determination to see a project through to the end.",
+		  "effects": {"Resilience": 60, "Confidence": 40, "Patience": -20}
 		},
 		{
-		  "text": "You are trying to force an outcome that isn't meant to be. This is trickery, not true power. Let it go.",
-		  "effects": {"Ambition": -30, "Spirituality": 20, "Rationality": -20}
+		  "text": "Advise them to use their powers of communication. A sociable, empathetic approach will win more allies than brute force.",
+		  "effects": {"Sociability": 50, "Empathy": 40}
 		},
 		{
-		  "text": "Combine your spiritual insights with practical action. This is the key to making real-world change.",
-		  "effects": {"Spirituality": 30, "Rationality": 30, "Ambition": 25}
+		  "text": "Caution against 'analysis paralysis'. They have the power, but are thinking too much. Urge an impulsive, decisive action.",
+		  "effects": {"Impulsivity": 50, "Rationality": -40, "Confidence": 20}
 		},
 		{
-		  "text": "Don't get lost in planning. The time for thinking is over. Inspired, immediate action is required now.",
-		  "effects": {"Impulsivity": 30, "Confidence": 20, "Rationality": -25}
+		  "text": "Suggest that true magic comes from a spiritual source. Encourage them to align their actions with their spiritual beliefs.",
+		  "effects": {"Spirituality": 60, "Ambition": 20, "Rationality": -20}
 		},
 		{
-		  "text": "You feel powerless, but it's an illusion. Acknowledge the skills you already possess and build from there.",
-		  "effects": {"Confidence": 40, "Hope": 20, "Resilience": 15}
+		  "text": "Frame their power as an illusion. Tell them that their confidence is unfounded and a dose of anxious realism is needed.",
+		  "effects": {"Confidence": -70, "Anxiety": 50, "Realism": 40}
 		}
 	  ]
 	},
@@ -84,36 +84,36 @@
 	  "image_path": "res://art/cards/the_high_priestess.png",
 	  "interpretations": [
 		{
-		  "text": "Look beyond the obvious. Your intuition is trying to tell you something important. Trust your inner voice.",
-		  "effects": {"Spirituality": 50, "Trust": 30, "Rationality": -40}
+		  "text": "Urge them to trust their intuition. Tell them the rational mind can't solve this; the answer lies in their subconscious and spiritual insight.",
+		  "effects": {"Spirituality": 70, "Rationality": -60, "Trust": 30}
 		},
 		{
-		  "text": "There are secrets being kept from you. Information is hidden, and you cannot proceed until it is revealed.",
-		  "effects": {"Anxiety": 40, "Trust": -50, "Cynicism": 30}
+		  "text": "Warn them of secrets and hidden information. Not all is as it seems. Encourage a healthy dose of suspicion and cynicism.",
+		  "effects": {"Cynicism": 50, "Trust": -60, "Anxiety": 30}
 		},
 		{
-		  "text": "This is a time for patience and reflection, not action. The answers you seek are within you, not in the outside world.",
-		  "effects": {"Patience": 40, "Impulsivity": -30, "Sociability": -20}
+		  "text": "Advise patience and withdrawal. This is a time for quiet introspection, not sociable or impulsive action.",
+		  "effects": {"Patience": 60, "Sociability": -50, "Impulsivity": -40}
 		},
 		{
-		  "text": "You are disconnected from your intuition. Your logical mind is overriding the wisdom of your subconscious.",
-		  "effects": {"Spirituality": -40, "Rationality": 30}
+		  "text": "Focus on the hidden knowledge. Tell them to look past the surface and use their analytical mind to uncover what is being concealed.",
+		  "effects": {"Rationality": 50, "Cynicism": 30}
 		},
 		{
-		  "text": "Embrace the mystery. Not everything needs to be analyzed and understood to be true.",
-		  "effects": {"Anxiety": -30, "Spirituality": 30, "Hope": 20}
+		  "text": "Interpret the silence as a sign of inner peace. Boost their resilience by showing them the strength found in quiet contemplation.",
+		  "effects": {"Resilience": 40, "Anxiety": -50, "Patience": 30}
 		},
 		{
-		  "text": "A wise, intuitive person will soon offer you guidance. Be open to their counsel.",
-		  "effects": {"Trust": 30, "Sociability": 20}
+		  "text": "Caution against becoming too withdrawn. Their introspection is turning into lonely, anxious isolation.",
+		  "effects": {"Sociability": 40, "Anxiety": 30, "Spirituality": -20}
 		},
 		{
-		  "text": "Be careful not to become too withdrawn. The inner world is valuable, but you must still live in this one.",
-		  "effects": {"Sociability": 30, "Anxiety": 20, "Spirituality": -20}
+		  "text": "Tell them to embrace the mystery of the unknown with hope, rather than fearing it with anxiety.",
+		  "effects": {"Hope": 50, "Anxiety": -40, "Spirituality": 20}
 		},
 		{
-		  "text": "Your dreams contain important messages. Pay close attention to them for clues about your situation.",
-		  "effects": {"Spirituality": 35, "Rationality": -20}
+		  "text": "Suggest their intuition is clouded by emotional turmoil. A clear, rational mind is needed to see the truth.",
+		  "effects": {"Rationality": 60, "Spirituality": -50, "Patience": 20}
 		}
 	  ]
 	},
@@ -123,36 +123,36 @@
 	  "image_path": "res://art/cards/the_emperor.png",
 	  "interpretations": [
 		{
-		  "text": "Take control of your life. It is time to establish structure, order, and discipline to achieve your goals.",
-		  "effects": {"Ambition": 50, "Confidence": 40, "Rationality": 30, "Impulsivity": -40}
+		  "text": "Advise them to take absolute control. A disciplined, rational plan is the only way to establish order and achieve their ambitions.",
+		  "effects": {"Rationality": 50, "Ambition": 40, "Confidence": 20, "Impulsivity": -30}
 		},
 		{
-		  "text": "Your rigid control is stifling yourself and others. You must learn to be more flexible, or your empire will crumble.",
-		  "effects": {"Empathy": 30, "Ambition": -20, "Patience": -30}
+		  "text": "Warn them that their rigid control is becoming tyranny. Urge them to show empathy, or their empire will crumble from within.",
+		  "effects": {"Empathy": 60, "Rationality": -40, "Ambition": -20}
 		},
 		{
-		  "text": "An authority figure—a boss, a father, or a leader—is exerting significant influence over you. You must decide how to respond.",
-		  "effects": {"Anxiety": 20, "Confidence": -20}
+		  "text": "Encourage them to build a solid foundation, brick by brick. This is not a time for impulse, but for immense patience and structure.",
+		  "effects": {"Patience": 60, "Rationality": 40, "Impulsivity": -50}
 		},
 		{
-		  "text": "Protect your boundaries. Build strong foundations and defend what you have created.",
-		  "effects": {"Resilience": 40, "Confidence": 30, "Sociability": -20}
+		  "text": "Tell them to suppress their emotions. A cold, logical, and even cynical perspective is necessary to maintain authority.",
+		  "effects": {"Rationality": 60, "Empathy": -70, "Cynicism": 40}
 		},
 		{
-		  "text": "You are shying away from responsibility. You must step up and become the authority your life needs right now.",
-		  "effects": {"Ambition": 40, "Confidence": 30, "Hope": 20}
+		  "text": "Remind them that they ARE the authority in their own life. Boost their confidence to be a firm, decisive leader.",
+		  "effects": {"Confidence": 70, "Ambition": 30, "Anxiety": -30}
 		},
 		{
-		  "text": "Your pursuit of control is causing you to be cold and unfeeling. Do not sacrifice your humanity for power.",
-		  "effects": {"Empathy": -50, "Cynicism": 30, "Rationality": 20}
+		  "text": "Warn against the chaos of impulsivity. A structured life leaves no room for reckless action; advise them to be deliberate.",
+		  "effects": {"Impulsivity": -60, "Patience": 50, "Rationality": 20}
 		},
 		{
-		  "text": "Long-term strategic planning is needed. Rely on logic and proven methods, not on whims or untested ideas.",
-		  "effects": {"Rationality": 50, "Impulsivity": -40, "Patience": 20}
+		  "text": "Push them to embrace their inner tyrant. Tell them that their ambition justifies a lack of empathy for those who stand in their way.",
+		  "effects": {"Ambition": 70, "Empathy": -80, "Cynicism": 50}
 		},
 		{
-		  "text": "You are in a position of leadership. You have a duty to rule with fairness, wisdom, and compassion.",
-		  "effects": {"Ambition": 20, "Empathy": 20, "Confidence": 15}
+		  "text": "Advise that they have lost control and are acting with desperate impulsivity. They need to restore order immediately.",
+		  "effects": {"Rationality": 50, "Patience": 30, "Impulsivity": -40, "Anxiety": 20}
 		}
 	  ]
 	},
@@ -162,231 +162,36 @@
 	  "image_path": "res://art/cards/death.png",
 	  "interpretations": [
 		{
-		  "text": "A necessary and profound ending is here. You must let go of the past to make way for the new.",
-		  "effects": {"Hope": 40, "Resilience": 30, "Anxiety": -30}
+		  "text": "Frame this as a necessary, cleansing end. Encourage them to find hope in the new beginning this ending makes possible.",
+		  "effects": {"Hope": 70, "Anxiety": -50, "Resilience": 30}
 		},
 		{
-		  "text": "You are resisting a crucial change, causing yourself immense suffering. The longer you hold on, the more painful it will be.",
-		  "effects": {"Anxiety": 60, "Resilience": -40, "Patience": -30}
+		  "text": "Warn them that resisting this inevitable change will only cause more pain. Their anxiety is a chain; letting go is freedom.",
+		  "effects": {"Resilience": 50, "Anxiety": -40, "Hope": 20, "Patience": 20}
 		},
 		{
-		  "text": "This is not a physical death, but a spiritual transformation. The person you were is ending; a new you is being born.",
-		  "effects": {"Spirituality": 50, "Confidence": 20, "Hope": 30}
+		  "text": "Interpret this as a spiritual transformation. The old self is dying, so they can boost their confidence and be reborn.",
+		  "effects": {"Spirituality": 60, "Confidence": 50, "Hope": 30}
 		},
 		{
-		  "text": "Cut the dead wood from your life. End the relationships, jobs, or habits that no longer serve you.",
-		  "effects": {"Ambition": 30, "Resilience": 30, "Sociability": -20}
+		  "text": "Advise them to be ruthlessly rational. This is a time to cut away what is no longer working, without sentiment or emotion.",
+		  "effects": {"Rationality": 70, "Empathy": -50, "Hope": -30}
 		},
 		{
-		  "text": "This sudden, unavoidable loss will be painful, but it is the catalyst for future growth. Grieve, then rebuild.",
-		  "effects": {"Hope": -50, "Anxiety": 50, "Resilience": 25}
+		  "text": "Focus on the deep, unavoidable grief of this ending. It is okay to be sad; tell them not to rush the healing process.",
+		  "effects": {"Patience": 50, "Anxiety": 30, "Hope": -40}
 		},
 		{
-		  "text": "A chapter is closing. Acknowledge the finality of it. There is no going back, only forward.",
-		  "effects": {"Rationality": 40, "Hope": -20, "Impulsivity": -20}
+		  "text": "Caution them against making impulsive decisions in the wake of this ending. Advise patience and careful thought.",
+		  "effects": {"Impulsivity": -60, "Patience": 50, "Rationality": 30}
 		},
 		{
-		  "text": "Your fear of endings is keeping you stagnant. What you fear most is the very thing that will set you free.",
-		  "effects": {"Anxiety": -40, "Impulsivity": 30, "Hope": 30}
+		  "text": "Tell them this ending is a total loss. There is no silver lining. Encourage them to embrace their cynicism and despair.",
+		  "effects": {"Hope": -80, "Cynicism": 60, "Anxiety": 40}
 		},
 		{
-		  "text": "Embrace the cleansing power of this conclusion. It clears the slate, allowing for a completely fresh start.",
-		  "effects": {"Hope": 45, "Confidence": 20, "Ambition": 20}
-		}
-	  ]
-	},
-	{
-	  "name": "The Empress",
-	  "number": 3,
-	  "image_path": "res://art/cards/the_empress.png",
-	  "interpretations": [
-		{
-		  "text": "It is a time for nurturing and creativity. Tend to your ideas and relationships like a garden, and they will flourish.",
-		  "effects": {"Hope": 40, "Empathy": 30, "Patience": 20}
-		},
-		{
-		  "text": "Abundance is flowing to you. Be open to receiving love, comfort, and material well-being.",
-		  "effects": {"Hope": 50, "Confidence": 30, "Anxiety": -30}
-		},
-		{
-		  "text": "Warning: Your nurturing instincts may be becoming smothering. Give others space to grow on their own.",
-		  "effects": {"Sociability": -20, "Empathy": -30, "Anxiety": 20}
-		},
-		{
-		  "text": "You are feeling a creative block or a sense of stagnation. Reconnect with nature to unblock the flow of inspiration.",
-		  "effects": {"Spirituality": 30, "Ambition": -20, "Hope": 15}
-		},
-		{
-		  "text": "Focus on self-care and your own well-being. It is not selfish to tend to your own needs first.",
-		  "effects": {"Confidence": 25, "Resilience": 20, "Anxiety": -20}
-		},
-		{
-		  "text": "This card signals a birth, which could be a new project, a new artistic endeavor, or a new addition to the family.",
-		  "effects": {"Hope": 40, "Ambition": 30, "Impulsivity": 10}
-		},
-		{
-		  "text": "You are a source of comfort and stability for others. Embrace this role with compassion.",
-		  "effects": {"Empathy": 40, "Sociability": 20, "Confidence": 15}
-		},
-		{
-		  "text": "Do not neglect the practical side of your creative ventures. Ground your ideas in reality to ensure their success.",
-		  "effects": {"Rationality": 30, "Ambition": 10, "Spirituality": -20}
-		}
-	  ]
-	},
-	{
-	  "name": "The Hierophant",
-	  "number": 5,
-	  "image_path": "res://art/cards/the_hierophant.png",
-	  "interpretations": [
-		{
-		  "text": "Follow the proven path. This is not a time for rebellion, but for learning from tradition and trusted institutions.",
-		  "effects": {"Rationality": 40, "Trust": 30, "Impulsivity": -30}
-		},
-		{
-		  "text": "Seek guidance from a mentor or teacher. You do not have to find the answers alone.",
-		  "effects": {"Sociability": 30, "Trust": 25, "Confidence": -10}
-		},
-		{
-		  "text": "You are clinging to outdated beliefs and dogma. It is time to challenge tradition and find your own truth.",
-		  "effects": {"Spirituality": 30, "Cynicism": 20, "Trust": -20}
-		},
-		{
-		  "text": "This is a time for spiritual learning and study. Deepen your understanding of your own belief system.",
-		  "effects": {"Spirituality": 50, "Rationality": 20, "Patience": 15}
-		},
-		{
-		  "text": "Your desire to conform is holding you back. Don't be afraid to be the lone voice against the group.",
-		  "effects": {"Confidence": 30, "Sociability": -20, "Ambition": 10}
-		},
-		{
-		  "text": "Joining a community or group with shared values will bring you a sense of belonging and purpose.",
-		  "effects": {"Sociability": 40, "Hope": 30, "Anxiety": -20}
-		},
-		{
-		  "text": "A formal commitment, like a marriage or a contract, is favored at this time.",
-		  "effects": {"Hope": 20, "Trust": 20, "Rationality": 10}
-		},
-		{
-		  "text": "You must find a balance between your spiritual beliefs and the practical demands of the material world.",
-		  "effects": {"Spirituality": 20, "Rationality": 20, "Ambition": 10}
-		}
-	  ]
-	},
-	{
-	  "name": "The Chariot",
-	  "number": 7,
-	  "image_path": "res://art/cards/the_chariot.png",
-	  "interpretations": [
-		{
-		  "text": "Victory is within reach! Harness your willpower, stay focused, and charge ahead with determination.",
-		  "effects": {"Ambition": 60, "Confidence": 50, "Hope": 30}
-		},
-		{
-		  "text": "You are being pulled in two different directions. You must gain control over these opposing forces to move forward.",
-		  "effects": {"Anxiety": 40, "Rationality": -20, "Impulsivity": -20}
-		},
-		{
-		  "text": "Your aggression and drive, while powerful, are alienating those around you. Temper your ambition with empathy.",
-		  "effects": {"Empathy": -40, "Ambition": -20, "Sociability": -20}
-		},
-		{
-		  "text": "Success will come through discipline and self-control. Do not let your emotions get the better of you.",
-		  "effects": {"Rationality": 40, "Resilience": 30, "Impulsivity": -30}
-		},
-		{
-		  "text": "You are letting obstacles defeat you. You have the inner strength to overcome this challenge if you choose to use it.",
-		  "effects": {"Confidence": 35, "Resilience": 30, "Ambition": 20}
-		},
-		{
-		  "text": "This card often signifies a journey or a move. Be prepared for travel or a change in scenery.",
-		  "effects": {"Impulsivity": 20, "Hope": 15}
-		},
-		{
-		  "text": "You are charging ahead without a clear direction. Your willpower is useless if not aimed at a specific goal.",
-		  "effects": {"Ambition": -30, "Anxiety": 30, "Rationality": -20}
-		},
-		{
-		  "text": "Confidence is key. Believe in your ability to control your own destiny and you will succeed.",
-		  "effects": {"Confidence": 60, "Anxiety": -40, "Hope": 20}
-		}
-	  ]
-	},
-	{
-	  "name": "The Hermit",
-	  "number": 9,
-	  "image_path": "res://art/cards/the_hermit.png",
-	  "interpretations": [
-		{
-		  "text": "It is time to withdraw from the noise of the world and look inward. The answers you seek are within yourself.",
-		  "effects": {"Spirituality": 50, "Sociability": -40, "Patience": 30}
-		},
-		{
-		  "text": "You are isolating yourself out of fear, not for enlightenment. Be careful not to slip into loneliness.",
-		  "effects": {"Anxiety": 40, "Hope": -30, "Sociability": -20}
-		},
-		{
-		  "text": "Seek your own truth, not the approval of others. A period of solitude will strengthen your inner voice.",
-		  "effects": {"Confidence": 30, "Spirituality": 40, "Trust": -20}
-		},
-		{
-		  "text": "Patience is required. The path of soul-searching does not yield immediate results.",
-		  "effects": {"Patience": 50, "Impulsivity": -40, "Anxiety": -20}
-		},
-		{
-		  "text": "You have gained wisdom through your experiences. It may be time to share that light with others as a guide.",
-		  "effects": {"Empathy": 30, "Confidence": 25, "Sociability": 15}
-		},
-		{
-		  "text": "You are too focused on the external world. Your spiritual self is being neglected.",
-		  "effects": {"Spirituality": 40, "Rationality": -20}
-		},
-		{
-		  "text": "This is a time for study and contemplation. Finish that book, take that course, deepen your knowledge.",
-		  "effects": {"Rationality": 30, "Patience": 20, "Sociability": -10}
-		},
-		{
-		  "text": "Don't rush back into the world. Take all the time you need for this important inner work.",
-		  "effects": {"Patience": 40, "Anxiety": -30, "Ambition": -20}
-		}
-	  ]
-	},
-	{
-	  "name": "Wheel of Fortune",
-	  "number": 10,
-	  "image_path": "res://art/cards/the_wheel_of_fortune.png",
-	  "interpretations": [
-		{
-		  "text": "A major turning point is at hand. The wheel is turning in your favor, bringing luck and good fortune.",
-		  "effects": {"Hope": 60, "Confidence": 30, "Anxiety": -40}
-		},
-		{
-		  "text": "What goes up must come down. A period of good luck may be ending, so be prepared for a downturn.",
-		  "effects": {"Anxiety": 50, "Hope": -40, "Resilience": 20}
-		},
-		{
-		  "text": "You cannot control the cycles of fate. Embrace change and learn to adapt to life's ups and downs.",
-		  "effects": {"Resilience": 40, "Spirituality": 30, "Ambition": -20}
-		},
-		{
-		  "text": "This is a matter of destiny. Events are in motion that are beyond your control, so try to go with the flow.",
-		  "effects": {"Patience": 30, "Trust": 20, "Rationality": -30}
-		},
-		{
-		  "text": "The law of karma is at play. You are about to reap what you have sown, for better or for worse.",
-		  "effects": {"Anxiety": 20, "Spirituality": 20}
-		},
-		{
-		  "text": "An unexpected opportunity will soon appear. Be ready to seize it when it does.",
-		  "effects": {"Hope": 40, "Impulsivity": 20}
-		},
-		{
-		  "text": "You feel stuck in a repeating cycle. To break free, you must learn the lesson this cycle is trying to teach you.",
-		  "effects": {"Rationality": 30, "Hope": -20, "Anxiety": 10}
-		},
-		{
-		  "text": "Things are about to change very quickly. This sudden shift will bring a new chapter to your life.",
-		  "effects": {"Impulsivity": 30, "Anxiety": 25, "Hope": 20}
+		  "text": "Focus on the resilience needed to endure this. Remind them that they have survived endings before and will again.",
+		  "effects": {"Resilience": 70, "Confidence": 30, "Hope": 20}
 		}
 	  ]
 	}
