@@ -99,6 +99,56 @@
 	  "outcome_id": "chaotic_spiral",
 	  "description": "The client threw caution to the wind, embracing a chaotic spiral of impulsive decisions that left their life in disarray.",
 	  "likelihood_formula": {"Impulsivity": 1.2, "Anxiety": 0.8, "Hope": -1.0, "Rationality": -1.0, "Resilience": -0.8}
+	},
+		{
+	  "outcome_id": "career_pivot_success",
+	  "description": "Taking a leap of faith, the client left their old field entirely and found unexpected success and fulfillment in a new career.",
+	  "likelihood_formula": {"Ambition": 1.2, "Confidence": 1.0, "Hope": 0.8, "Anxiety": -0.6}
+	},
+	{
+	  "outcome_id": "financial_discipline",
+	  "description": "Faced with their situation, the client buckled down, created a strict budget, and slowly built a foundation of financial security.",
+	  "likelihood_formula": {"Rationality": 1.2, "Patience": 1.0, "Resilience": 0.5, "Impulsivity": -1.5}
+	},
+	{
+	  "outcome_id": "new_community",
+	  "description": "Feeling lost, the client joined a local group for a hobby and discovered a welcoming community that became a second family.",
+	  "likelihood_formula": {"Sociability": 1.5, "Trust": 1.0, "Hope": 0.5, "Cynicism": -1.0}
+	},
+	{
+	  "outcome_id": "overcame_fear",
+	  "description": "The client used the turmoil as a catalyst to finally confront a deep-seated fear, emerging from the ordeal stronger and more confident.",
+	  "likelihood_formula": {"Resilience": 1.5, "Confidence": 1.2, "Hope": 0.5, "Anxiety": -1.0}
+	},
+	{
+	  "outcome_id": "bittersweet_farewell",
+	  "description": "The client ended a significant relationship. While painful, the parting was amicable and ultimately necessary for both of them to grow.",
+	  "likelihood_formula": {"Empathy": 1.2, "Rationality": 1.0, "Patience": 0.8, "Hope": -0.5}
+	},
+	{
+	  "outcome_id": "obsessive_fixation",
+	  "description": "Unable to let go, the client developed an unhealthy obsession with their situation, allowing it to consume their every waking thought.",
+	  "likelihood_formula": {"Anxiety": 1.5, "Rationality": -1.0, "Patience": -0.8, "Resilience": -1.0}
+	},
+	{
+	  "outcome_id": "blame_shifting",
+	  "description": "Refusing to look inward, the client placed all the blame for their problems on others, becoming bitter and alienating those who tried to help.",
+	  "likelihood_formula": {"Cynicism": 1.2, "Anxiety": 0.8, "Empathy": -1.5, "Confidence": -1.0}
+	},
+	{
+	  "outcome_id": "superficial_change",
+	  "description": "The client made a dramatic change to their appearance, but it was a superficial fix that failed to address the real underlying issues.",
+	  "likelihood_formula": {"Impulsivity": 1.5, "Sociability": 0.5, "Rationality": -1.2, "Spirituality": -1.0}
+	},
+	{
+	  "outcome_id": "cautious_optimism",
+	  "description": "The client didn't solve their problem overnight, but they took a small, cautious first step in a more positive direction, armed with a new perspective.",
+	  "likelihood_formula": {"Patience": 1.2, "Rationality": 1.0, "Hope": 0.5, "Impulsivity": -0.8}
+	},
+	{
+	  "outcome_id": "scapegoat_found",
+	  "description": "Desperate for answers, the client placed their complete faith in a charismatic but manipulative new guru, repeating old patterns of behavior.",
+	  "likelihood_formula": {"Trust": 1.2, "Impulsivity": 1.0, "Rationality": -1.5, "Cynicism": -1.0}
 	}
   ]
 }

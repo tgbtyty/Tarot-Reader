@@ -194,6 +194,201 @@
 		  "effects": {"Hope": 45, "Confidence": 20, "Ambition": 20}
 		}
 	  ]
+	},
+	{
+	  "name": "The Empress",
+	  "number": 3,
+	  "image_path": "res://art/cards/the_empress.png",
+	  "interpretations": [
+		{
+		  "text": "It is a time for nurturing and creativity. Tend to your ideas and relationships like a garden, and they will flourish.",
+		  "effects": {"Hope": 40, "Empathy": 30, "Patience": 20}
+		},
+		{
+		  "text": "Abundance is flowing to you. Be open to receiving love, comfort, and material well-being.",
+		  "effects": {"Hope": 50, "Confidence": 30, "Anxiety": -30}
+		},
+		{
+		  "text": "Warning: Your nurturing instincts may be becoming smothering. Give others space to grow on their own.",
+		  "effects": {"Sociability": -20, "Empathy": -30, "Anxiety": 20}
+		},
+		{
+		  "text": "You are feeling a creative block or a sense of stagnation. Reconnect with nature to unblock the flow of inspiration.",
+		  "effects": {"Spirituality": 30, "Ambition": -20, "Hope": 15}
+		},
+		{
+		  "text": "Focus on self-care and your own well-being. It is not selfish to tend to your own needs first.",
+		  "effects": {"Confidence": 25, "Resilience": 20, "Anxiety": -20}
+		},
+		{
+		  "text": "This card signals a birth, which could be a new project, a new artistic endeavor, or a new addition to the family.",
+		  "effects": {"Hope": 40, "Ambition": 30, "Impulsivity": 10}
+		},
+		{
+		  "text": "You are a source of comfort and stability for others. Embrace this role with compassion.",
+		  "effects": {"Empathy": 40, "Sociability": 20, "Confidence": 15}
+		},
+		{
+		  "text": "Do not neglect the practical side of your creative ventures. Ground your ideas in reality to ensure their success.",
+		  "effects": {"Rationality": 30, "Ambition": 10, "Spirituality": -20}
+		}
+	  ]
+	},
+	{
+	  "name": "The Hierophant",
+	  "number": 5,
+	  "image_path": "res://art/cards/the_hierophant.png",
+	  "interpretations": [
+		{
+		  "text": "Follow the proven path. This is not a time for rebellion, but for learning from tradition and trusted institutions.",
+		  "effects": {"Rationality": 40, "Trust": 30, "Impulsivity": -30}
+		},
+		{
+		  "text": "Seek guidance from a mentor or teacher. You do not have to find the answers alone.",
+		  "effects": {"Sociability": 30, "Trust": 25, "Confidence": -10}
+		},
+		{
+		  "text": "You are clinging to outdated beliefs and dogma. It is time to challenge tradition and find your own truth.",
+		  "effects": {"Spirituality": 30, "Cynicism": 20, "Trust": -20}
+		},
+		{
+		  "text": "This is a time for spiritual learning and study. Deepen your understanding of your own belief system.",
+		  "effects": {"Spirituality": 50, "Rationality": 20, "Patience": 15}
+		},
+		{
+		  "text": "Your desire to conform is holding you back. Don't be afraid to be the lone voice against the group.",
+		  "effects": {"Confidence": 30, "Sociability": -20, "Ambition": 10}
+		},
+		{
+		  "text": "Joining a community or group with shared values will bring you a sense of belonging and purpose.",
+		  "effects": {"Sociability": 40, "Hope": 30, "Anxiety": -20}
+		},
+		{
+		  "text": "A formal commitment, like a marriage or a contract, is favored at this time.",
+		  "effects": {"Hope": 20, "Trust": 20, "Rationality": 10}
+		},
+		{
+		  "text": "You must find a balance between your spiritual beliefs and the practical demands of the material world.",
+		  "effects": {"Spirituality": 20, "Rationality": 20, "Ambition": 10}
+		}
+	  ]
+	},
+	{
+	  "name": "The Chariot",
+	  "number": 7,
+	  "image_path": "res://art/cards/the_chariot.png",
+	  "interpretations": [
+		{
+		  "text": "Victory is within reach! Harness your willpower, stay focused, and charge ahead with determination.",
+		  "effects": {"Ambition": 60, "Confidence": 50, "Hope": 30}
+		},
+		{
+		  "text": "You are being pulled in two different directions. You must gain control over these opposing forces to move forward.",
+		  "effects": {"Anxiety": 40, "Rationality": -20, "Impulsivity": -20}
+		},
+		{
+		  "text": "Your aggression and drive, while powerful, are alienating those around you. Temper your ambition with empathy.",
+		  "effects": {"Empathy": -40, "Ambition": -20, "Sociability": -20}
+		},
+		{
+		  "text": "Success will come through discipline and self-control. Do not let your emotions get the better of you.",
+		  "effects": {"Rationality": 40, "Resilience": 30, "Impulsivity": -30}
+		},
+		{
+		  "text": "You are letting obstacles defeat you. You have the inner strength to overcome this challenge if you choose to use it.",
+		  "effects": {"Confidence": 35, "Resilience": 30, "Ambition": 20}
+		},
+		{
+		  "text": "This card often signifies a journey or a move. Be prepared for travel or a change in scenery.",
+		  "effects": {"Impulsivity": 20, "Hope": 15}
+		},
+		{
+		  "text": "You are charging ahead without a clear direction. Your willpower is useless if not aimed at a specific goal.",
+		  "effects": {"Ambition": -30, "Anxiety": 30, "Rationality": -20}
+		},
+		{
+		  "text": "Confidence is key. Believe in your ability to control your own destiny and you will succeed.",
+		  "effects": {"Confidence": 60, "Anxiety": -40, "Hope": 20}
+		}
+	  ]
+	},
+	{
+	  "name": "The Hermit",
+	  "number": 9,
+	  "image_path": "res://art/cards/the_hermit.png",
+	  "interpretations": [
+		{
+		  "text": "It is time to withdraw from the noise of the world and look inward. The answers you seek are within yourself.",
+		  "effects": {"Spirituality": 50, "Sociability": -40, "Patience": 30}
+		},
+		{
+		  "text": "You are isolating yourself out of fear, not for enlightenment. Be careful not to slip into loneliness.",
+		  "effects": {"Anxiety": 40, "Hope": -30, "Sociability": -20}
+		},
+		{
+		  "text": "Seek your own truth, not the approval of others. A period of solitude will strengthen your inner voice.",
+		  "effects": {"Confidence": 30, "Spirituality": 40, "Trust": -20}
+		},
+		{
+		  "text": "Patience is required. The path of soul-searching does not yield immediate results.",
+		  "effects": {"Patience": 50, "Impulsivity": -40, "Anxiety": -20}
+		},
+		{
+		  "text": "You have gained wisdom through your experiences. It may be time to share that light with others as a guide.",
+		  "effects": {"Empathy": 30, "Confidence": 25, "Sociability": 15}
+		},
+		{
+		  "text": "You are too focused on the external world. Your spiritual self is being neglected.",
+		  "effects": {"Spirituality": 40, "Rationality": -20}
+		},
+		{
+		  "text": "This is a time for study and contemplation. Finish that book, take that course, deepen your knowledge.",
+		  "effects": {"Rationality": 30, "Patience": 20, "Sociability": -10}
+		},
+		{
+		  "text": "Don't rush back into the world. Take all the time you need for this important inner work.",
+		  "effects": {"Patience": 40, "Anxiety": -30, "Ambition": -20}
+		}
+	  ]
+	},
+	{
+	  "name": "Wheel of Fortune",
+	  "number": 10,
+	  "image_path": "res://art/cards/the_wheel_of_fortune.png",
+	  "interpretations": [
+		{
+		  "text": "A major turning point is at hand. The wheel is turning in your favor, bringing luck and good fortune.",
+		  "effects": {"Hope": 60, "Confidence": 30, "Anxiety": -40}
+		},
+		{
+		  "text": "What goes up must come down. A period of good luck may be ending, so be prepared for a downturn.",
+		  "effects": {"Anxiety": 50, "Hope": -40, "Resilience": 20}
+		},
+		{
+		  "text": "You cannot control the cycles of fate. Embrace change and learn to adapt to life's ups and downs.",
+		  "effects": {"Resilience": 40, "Spirituality": 30, "Ambition": -20}
+		},
+		{
+		  "text": "This is a matter of destiny. Events are in motion that are beyond your control, so try to go with the flow.",
+		  "effects": {"Patience": 30, "Trust": 20, "Rationality": -30}
+		},
+		{
+		  "text": "The law of karma is at play. You are about to reap what you have sown, for better or for worse.",
+		  "effects": {"Anxiety": 20, "Spirituality": 20}
+		},
+		{
+		  "text": "An unexpected opportunity will soon appear. Be ready to seize it when it does.",
+		  "effects": {"Hope": 40, "Impulsivity": 20}
+		},
+		{
+		  "text": "You feel stuck in a repeating cycle. To break free, you must learn the lesson this cycle is trying to teach you.",
+		  "effects": {"Rationality": 30, "Hope": -20, "Anxiety": 10}
+		},
+		{
+		  "text": "Things are about to change very quickly. This sudden shift will bring a new chapter to your life.",
+		  "effects": {"Impulsivity": 30, "Anxiety": 25, "Hope": 20}
+		}
+	  ]
 	}
   ]
 }
