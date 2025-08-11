@@ -1,0 +1,139 @@
+{
+  "outcome_groups": {
+	"tragedy_and_loss": [
+	  {
+		"outcome_id": "grief_overcame",
+		"description": "After a long period of grief, the client processed their pain and emerged with newfound resilience and a deeper appreciation for life.",
+		"likelihood_formula": {"Resilience": 1.5, "Hope": 1.0, "Patience": 0.8, "Anxiety": -1.0}
+	  },
+	  {
+		"outcome_id": "isolated_despair",
+		"description": "Consumed by their loss, the client shut out the world, falling into a deep and isolated despair.",
+		"likelihood_formula": {"Anxiety": 1.2, "Sociability": -1.5, "Hope": -1.0, "Resilience": -0.8}
+	  },
+	  {
+		"outcome_id": "found_support_system",
+		"description": "The client bravely reached out and leaned on their community, finding a support system that helped them heal.",
+		"likelihood_formula": {"Sociability": 1.2, "Trust": 1.0, "Empathy": 0.8, "Cynicism": -1.0}
+	  },
+	  {
+		"outcome_id": "bitter_and_blaming",
+		"description": "The client became bitter and resentful, blaming the world for their misfortune and alienating those who tried to help.",
+		"likelihood_formula": {"Cynicism": 1.5, "Anxiety": 0.8, "Empathy": -1.2, "Rationality": -1.0}
+	  },
+	  {
+		"outcome_id": "honored_the_loss",
+		"description": "The client found a beautiful way to honor what was lost, creating a memorial that brought them—and others—a sense of peace.",
+		"likelihood_formula": {"Spirituality": 1.2, "Empathy": 1.0, "Patience": 0.8, "Hope": 0.5}
+	  }
+	],
+	"relationship_conflict": [
+	  {
+		"outcome_id": "reconciliation_and_growth",
+		"description": "Through patient and empathetic conversation, they repaired the relationship, which ultimately grew even stronger from the conflict.",
+		"likelihood_formula": {"Empathy": 1.5, "Patience": 1.2, "Hope": 1.0, "Cynicism": -1.0}
+	  },
+	  {
+		"outcome_id": "vengeful_destruction",
+		"description": "Driven by impulse, the client sought a bitter revenge, ensuring the relationship was irreparably destroyed.",
+		"likelihood_formula": {"Impulsivity": 1.5, "Ambition": 0.5, "Empathy": -1.2, "Patience": -1.0}
+	  },
+	  {
+		"outcome_id": "walked_away_with_peace",
+		"description": "The client rationally accepted that the relationship was over and walked away, finding a quiet strength in letting go.",
+		"likelihood_formula": {"Rationality": 1.2, "Resilience": 1.0, "Confidence": 0.8, "Hope": -0.5}
+	  },
+	  {
+		"outcome_id": "obsessed_over_wrongdoing",
+		"description": "Unable to move on, the client became obsessed, endlessly replaying the conflict in their mind and unable to find peace.",
+		"likelihood_formula": {"Anxiety": 1.5, "Patience": -1.2, "Rationality": -1.0, "Resilience": -0.8}
+	  },
+	  {
+		"outcome_id": "learned_to_set_boundaries",
+		"description": "The painful experience taught the client a valuable lesson in self-respect, and they learned to enforce healthy boundaries.",
+		"likelihood_formula": {"Confidence": 1.2, "Rationality": 1.0, "Resilience": 0.8, "Trust": -0.5}
+	  }
+	],
+	"career_and_finance": [
+	  {
+		"outcome_id": "climbed_the_ladder",
+		"description": "With renewed ambition and confidence, the client excelled in their field, achieving a level of success they hadn't thought possible.",
+		"likelihood_formula": {"Ambition": 1.5, "Confidence": 1.2, "Rationality": 0.8}
+	  },
+	  {
+		"outcome_id": "suffered_burnout",
+		"description": "The pressure to succeed became too much, leading to a severe burnout that forced them to step away from their work entirely.",
+		"likelihood_formula": {"Anxiety": 1.5, "Ambition": 0.5, "Resilience": -1.2, "Hope": -1.0}
+	  },
+	  {
+		"outcome_id": "found_work_life_balance",
+		"description": "The client decided that their well-being was more important than ambition, and they found contentment in a less stressful role.",
+		"likelihood_formula": {"Patience": 1.2, "Hope": 0.8, "Anxiety": -1.0, "Ambition": -1.5}
+	  },
+	  {
+		"outcome_id": "imposter_syndrome",
+		"description": "Despite their success, the client was crippled by imposter syndrome, living in constant anxiety that they would be exposed as a fraud.",
+		"likelihood_formula": {"Anxiety": 1.5, "Confidence": -1.2, "Rationality": 0.5}
+	  },
+	  {
+		"outcome_id": "secured_their_future",
+		"description": "The client handled their finances with discipline and patience, creating a stable and secure future for themselves.",
+		"likelihood_formula": {"Rationality": 1.5, "Patience": 1.2, "Impulsivity": -1.0}
+	  }
+	],
+	"opportunity_and_windfall": [
+	  {
+		"outcome_id": "squandered_the_chance",
+		"description": "The client's impulsivity got the better of them, and the great opportunity was wasted on fleeting pleasures and poor decisions.",
+		"likelihood_formula": {"Impulsivity": 1.5, "Rationality": -1.2, "Patience": -1.0}
+	  },
+	  {
+		"outcome_id": "invested_wisely",
+		"description": "The client approached the opportunity with rational patience, investing it wisely to build a secure and lasting foundation.",
+		"likelihood_formula": {"Rationality": 1.5, "Patience": 1.2, "Hope": 0.5, "Impulsivity": -1.0}
+	  },
+	  {
+		"outcome_id": "overwhelmed_by_pressure",
+		"description": "The new situation was too much, and the client retreated, overwhelmed by the pressure and anxiety of it all.",
+		"likelihood_formula": {"Anxiety": 1.5, "Confidence": -1.2, "Resilience": -1.0}
+	  },
+	  {
+		"outcome_id": "shared_the_good_fortune",
+		"description": "With great empathy, the client used their new position to help friends and family, finding deep fulfillment in generosity.",
+		"likelihood_formula": {"Empathy": 1.5, "Sociability": 1.2, "Cynicism": -1.0}
+	  },
+	  {
+		"outcome_id": "became_guarded_and_suspicious",
+		"description": "The new status made the client deeply cynical and paranoid, constantly questioning the motives of everyone around them.",
+		"likelihood_formula": {"Cynicism": 1.5, "Trust": -1.2, "Anxiety": 0.8, "Sociability": -1.0}
+	  }
+	],
+	"life_shakeup": [
+	  {
+		"outcome_id": "embraced_the_new_normal",
+		"description": "The client fully embraced the change, adapting beautifully and thriving in their new and unexpected circumstances.",
+		"likelihood_formula": {"Hope": 1.2, "Resilience": 1.0, "Confidence": 0.8, "Anxiety": -1.0}
+	  },
+	  {
+		"outcome_id": "retreated_to_the_familiar",
+		"description": "Terrified of the change, the client rejected the new situation and clung desperately to their old, familiar way of life.",
+		"likelihood_formula": {"Anxiety": 1.5, "Patience": -1.0, "Hope": -1.2, "Impulsivity": -0.8}
+	  },
+	  {
+		"outcome_id": "found_a_new_identity",
+		"description": "The shake-up provided the perfect opportunity for the client to reinvent themselves, and they emerged a new, more confident person.",
+		"likelihood_formula": {"Confidence": 1.2, "Impulsivity": 1.0, "Sociability": 0.8}
+	  },
+	  {
+		"outcome_id": "became_lost_and_confused",
+		"description": "The change left the client without an anchor, and they drifted aimlessly, confused and lacking the confidence to forge a new path.",
+		"likelihood_formula": {"Anxiety": 1.2, "Rationality": -1.0, "Confidence": -1.5, "Hope": -0.8}
+	  },
+	  {
+		"outcome_id": "forged_deeper_connections",
+		"description": "The shared experience brought the client closer to their loved ones, forging deeper and more empathetic bonds.",
+		"likelihood_formula": {"Sociability": 1.2, "Empathy": 1.0, "Trust": 0.8}
+	  }
+	]
+  }
+}

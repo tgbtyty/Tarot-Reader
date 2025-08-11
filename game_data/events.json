@@ -3,167 +3,107 @@
 	{
 	  "event_id": "house_fire",
 	  "positivity": -95,
-	  "descriptions": [
-		"My house burned down last week, and I lost everything.",
-		"There was a terrible fire... my entire home is just gone.",
-		"I'm still in shock after losing my home in a fire."
-	  ],
+	  "descriptions": ["My house burned down last week, and I lost everything.", "There was a terrible fire... my entire home is just gone.", "I'm still in shock after losing my home in a fire."],
 	  "compatible_action_ids": ["give_up", "overwhelmed_start", "general_guidance", "find_peace"],
-	  "compatible_outcome_ids": ["isolation_withdrawal", "rock_bottom_rebirth", "self_care_focus", "financial_discipline", "blame_shifting", "new_community", "obsessive_fixation"]
+	  "outcome_group_id": "tragedy_and_loss"
 	},
 	{
 	  "event_id": "job_loss",
 	  "positivity": -80,
-	  "descriptions": [
-		"I was laid off from my job without any warning.",
-		"My company had major budget cuts and I lost my job.",
-		"After years of service at my company, they let me go."
-	  ],
+	  "descriptions": ["I was laid off from my job without any warning.", "My company had major budget cuts and I lost my job.", "After years of service at my company, they let me go."],
 	  "compatible_action_ids": ["general_guidance", "overwhelmed_start", "seize_opportunity", "find_peace"],
-	  "compatible_outcome_ids": ["rash_decision", "paralysis_by_analysis", "new_passion", "career_pivot_success", "cautious_optimism", "financial_discipline"]
+	  "outcome_group_id": "career_and_finance"
 	},
 	{
 	  "event_id": "breakup",
 	  "positivity": -90,
-	  "descriptions": [
-		"My partner of five years just left me.",
-		"The person I thought I was going to marry broke up with me.",
-		"I just went through a devastating breakup."
-	  ],
+	  "descriptions": ["My partner of five years just left me.", "The person I thought I was going to marry broke up with me.", "I just went through a devastating breakup."],
 	  "compatible_action_ids": ["find_peace", "give_up", "self_protection", "be_vulnerable"],
-	  "compatible_outcome_ids": ["isolation_withdrawal", "guarded_loneliness", "bittersweet_farewell", "reconnection", "vulnerable_betrayal", "self_care_focus"]
+	  "outcome_group_id": "relationship_conflict"
 	},
 	{
 	  "event_id": "betrayal",
 	  "positivity": -85,
-	  "descriptions": [
-		"My best friend betrayed my trust in the worst way possible.",
-		"I just found out my business partner has been stealing from me.",
-		"Someone I loved went behind my back with a terrible secret."
-	  ],
+	  "descriptions": ["My best friend betrayed my trust in the worst way possible.", "I just found out my business partner has been stealing from me.", "Someone I loved went behind my back with a terrible secret."],
 	  "compatible_action_ids": ["seek_revenge", "question_trust", "self_protection", "find_peace"],
-	  "compatible_outcome_ids": ["revenge_empty", "revenge_disaster", "forgiveness_peace", "guarded_loneliness", "obsessive_fixation", "blame_shifting"]
+	  "outcome_group_id": "relationship_conflict"
 	},
 	{
 	  "event_id": "illness",
 	  "positivity": -90,
-	  "descriptions": [
-		"I've just been diagnosed with a serious illness.",
-		"The doctors gave me some very bad news about my health.",
-		"I'm facing a major health crisis and I'm terrified."
-	  ],
+	  "descriptions": ["I've just been diagnosed with a serious illness.", "The doctors gave me some very bad news about my health.", "I'm facing a major health crisis and I'm terrified."],
 	  "compatible_action_ids": ["find_peace", "give_up", "general_guidance", "self_protection"],
-	  "compatible_outcome_ids": ["strength_in_surrender", "self_care_focus", "reconnection", "rock_bottom_rebirth", "overcame_fear", "new_community"]
+	  "outcome_group_id": "tragedy_and_loss"
 	},
 	{
 	  "event_id": "money_windfall",
 	  "positivity": 80,
-	  "descriptions": [
-		"I recently inherited a significant amount of money.",
-		"You're not going to believe this, but I won the lottery.",
-		"A distant relative I never knew passed away and left me a fortune."
-	  ],
+	  "descriptions": ["I recently inherited a significant amount of money.", "You're not going to believe this, but I won the lottery.", "A distant relative I never knew passed away and left me a fortune."],
 	  "compatible_action_ids": ["seize_opportunity", "take_risk", "general_guidance", "self_protection"],
-	  "compatible_outcome_ids": ["risk_success", "safe_modest_success", "chaotic_spiral", "financial_discipline", "superficial_change", "scapegoat_found"]
+	  "outcome_group_id": "opportunity_and_windfall"
 	},
 	{
 	  "event_id": "dream_job",
 	  "positivity": 90,
-	  "descriptions": [
-		"After countless interviews, I was finally offered my dream job!",
-		"I got the promotion I've been working towards for years.",
-		"I just landed a position at the company I've always admired."
-	  ],
+	  "descriptions": ["After countless interviews, I was finally offered my dream job!", "I got the promotion I've been working towards for years.", "I just landed a position at the company I've always admired."],
 	  "compatible_action_ids": ["seize_opportunity", "take_risk", "general_guidance"],
-	  "compatible_outcome_ids": ["risk_success", "safe_modest_success", "decisive_action", "paralysis_by_analysis", "career_pivot_success"]
+	  "outcome_group_id": "career_and_finance"
 	},
 	{
 	  "event_id": "new_love",
 	  "positivity": 95,
-	  "descriptions": [
-		"I've met someone... and I think this could be the real thing.",
-		"I went on a date and felt a connection like never before.",
-		"Someone amazing has come into my life and turned it upside down."
-	  ],
+	  "descriptions": ["I've met someone... and I think this could be the real thing.", "I went on a date and felt a connection like never before.", "Someone amazing has come into my life and turned it upside down."],
 	  "compatible_action_ids": ["be_vulnerable", "question_trust", "take_risk", "seize_opportunity"],
-	  "compatible_outcome_ids": ["vulnerable_connection", "vulnerable_betrayal", "risk_success", "bittersweet_farewell", "decisive_action"]
+	  "outcome_group_id": "opportunity_and_windfall"
 	},
 	{
 	  "event_id": "relocation",
 	  "positivity": 10,
-	  "descriptions": [
-		"I have to move to a new city for work, and I don't know anyone there.",
-		"My family is relocating and I have to leave all my friends behind.",
-		"I'm about to move across the country on my own."
-	  ],
+	  "descriptions": ["I have to move to a new city for work, and I don't know anyone there.", "My family is relocating and I have to leave all my friends behind.", "I'm about to move across the country on my own."],
 	  "compatible_action_ids": ["general_guidance", "overwhelmed_start", "take_risk", "be_vulnerable"],
-	  "compatible_outcome_ids": ["new_passion", "isolation_withdrawal", "decisive_action", "new_community", "cautious_optimism", "risk_failure_lesson"]
+	  "outcome_group_id": "life_shakeup"
 	},
 	{
 	  "event_id": "family_wedding",
 	  "positivity": 40,
-	  "descriptions": [
-		"My sister is getting married and the family stress is unbelievable.",
-		"I'm the best man at a wedding and I'm overwhelmed by the responsibility.",
-		"There's a big family wedding coming up, and it's dredging up a lot of complicated feelings."
-	  ],
+	  "descriptions": ["My sister is getting married and the family stress is unbelievable.", "I'm the best man at a wedding and I'm overwhelmed by the responsibility.", "There's a big family wedding coming up, and it's dredging up a lot of complicated feelings."],
 	  "compatible_action_ids": ["find_peace", "self_protection", "general_guidance", "be_vulnerable"],
-	  "compatible_outcome_ids": ["reconnection", "forgiveness_peace", "chaotic_spiral", "self_care_focus", "bittersweet_farewell"]
+	  "outcome_group_id": "life_shakeup"
 	},
 	{
 	  "event_id": "creative_breakthrough",
 	  "positivity": 85,
-	  "descriptions": [
-		"The novel I've been writing for years just got a publishing deal.",
-		"The band I'm in just got offered a record contract.",
-		"My art was accepted into a prestigious gallery."
-	  ],
+	  "descriptions": ["The novel I've been writing for years just got a publishing deal.", "The band I'm in just got offered a record contract.", "My art was accepted into a prestigious gallery."],
 	  "compatible_action_ids": ["seize_opportunity", "take_risk", "question_trust", "self_protection"],
-	  "compatible_outcome_ids": ["decisive_action", "risk_success", "new_passion", "career_pivot_success", "superficial_change", "paralysis_by_analysis"]
+	  "outcome_group_id": "career_and_finance"
 	},
 	{
 	  "event_id": "public_humiliation",
 	  "positivity": -90,
-	  "descriptions": [
-		"A video of me at my worst went viral online.",
-		"I made a terrible mistake at work and was fired in front of everyone.",
-		"A secret I kept was exposed, and now everyone is judging me."
-	  ],
+	  "descriptions": ["A video of me at my worst went viral online.", "I made a terrible mistake at work and was fired in front of everyone.", "A secret I kept was exposed, and now everyone is judging me."],
 	  "compatible_action_ids": ["give_up", "self_protection", "seek_revenge", "find_peace"],
-	  "compatible_outcome_ids": ["isolation_withdrawal", "overcame_fear", "blame_shifting", "guarded_loneliness", "obsessive_fixation", "rock_bottom_rebirth"]
+	  "outcome_group_id": "tragedy_and_loss"
 	},
 	{
 	  "event_id": "family_confrontation",
 	  "positivity": -40,
-	  "descriptions": [
-		"I finally confronted my father about my childhood.",
-		"I had a huge fight with my sibling and we said horrible things.",
-		"I told my parents a truth they didn't want to hear, and the fallout has been awful."
-	  ],
+	  "descriptions": ["I finally confronted my father about my childhood.", "I had a huge fight with my sibling and we said horrible things.", "I told my parents a truth they didn't want to hear, and the fallout has been awful."],
 	  "compatible_action_ids": ["find_peace", "seek_revenge", "self_protection", "give_up"],
-	  "compatible_outcome_ids": ["forgiveness_peace", "bittersweet_farewell", "reconnection", "blame_shifting", "guarded_loneliness", "obsessive_fixation"]
+	  "outcome_group_id": "relationship_conflict"
 	},
 	{
 	  "event_id": "pet_death",
 	  "positivity": -75,
-	  "descriptions": [
-		"My dog, my best friend for 14 years, passed away last night.",
-		"My beloved cat is gone, and the house just feels so empty.",
-		"I had to say goodbye to my animal companion, and I'm heartbroken."
-	  ],
-	  "compatible_action_ids": ["find_peace", "give_up", "self_care_focus", "be_vulnerable"],
-	  "compatible_outcome_ids": ["self_care_focus", "strength_in_surrender", "isolation_withdrawal", "new_passion", "reconnection", "new_community"]
+	  "descriptions": ["My dog, my best friend for 14 years, passed away last night.", "My beloved cat is gone, and the house feels so empty.", "I had to say goodbye to my animal companion, and I'm heartbroken."],
+	  "compatible_action_ids": ["find_peace", "give_up", "focus_on_self", "be_vulnerable"],
+	  "outcome_group_id": "tragedy_and_loss"
 	},
 	{
 	  "event_id": "spiritual_awakening",
 	  "positivity": 30,
-	  "descriptions": [
-		"I had an experience that made me question the nature of reality.",
-		"Everything I believed in was suddenly shattered, and I don't know what's true anymore.",
-		"After a profound moment of clarity, my old life feels meaningless."
-	  ],
+	  "descriptions": ["I had an experience that made me question the nature of reality.", "Everything I believed in was suddenly shattered, and I don't know what's true anymore.", "After a profound moment of clarity, my old life feels meaningless."],
 	  "compatible_action_ids": ["general_guidance", "find_peace", "take_risk", "question_trust"],
-	  "compatible_outcome_ids": ["strength_in_surrender", "new_passion", "overcame_fear", "cautious_optimism", "scapegoat_found", "new_community"]
+	  "outcome_group_id": "life_shakeup"
 	}
   ]
 }

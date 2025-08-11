@@ -1,18 +1,21 @@
-# Situation.gd (Updated with hidden info)
+# Situation.gd (Corrected with a different typing approach)
 class_name Situation
 extends Node
 
 var event_data: Dictionary
 var feeling_data: Dictionary
 var action_data: Dictionary
-var potential_outcomes: Array[Dictionary] = []
+# CORRECTED LINE: The variable is now declared as a generic Array.
+var potential_outcomes: Array = []
 
 
 func initialize_randomly() -> void:
+	# 1. Pick a random event.
 	var event_ids = DataManager.events.keys()
 	event_data = DataManager.events[event_ids.pick_random()]
 	
-	var event_positivity = event_data["positivity"]
+	# 2. Find a feeling that matches the event's positivity score.
+	var event_positivity = event_data.positivity
 	var valid_feelings = []
 	for feeling in DataManager.feelings:
 		var trigger = feeling.trigger_condition
@@ -24,16 +27,18 @@ func initialize_randomly() -> void:
 	else:
 		feeling_data = DataManager.feelings.pick_random()
 
+	# 3. Pick a compatible action for the event.
 	var action_id = event_data.compatible_action_ids.pick_random()
 	action_data = DataManager.actions[action_id]
 	
-	potential_outcomes.clear()
-	for outcome_id in event_data.compatible_outcome_ids:
-		if DataManager.outcomes.has(outcome_id):
-			potential_outcomes.append(DataManager.outcomes[outcome_id])
-
-	# This line is now commented out.
-	# print("Situation generated for event: ", event_data.event_id)
+	# 4. Load the entire group of potential outcomes for this event.
+	var group_id = event_data.get("outcome_group_id")
+	if group_id and DataManager.outcome_groups.has(group_id):
+		# The 'as' cast is no longer needed here because the types now match.
+		potential_outcomes = DataManager.outcome_groups[group_id]
+	else:
+		potential_outcomes.clear()
+		print("ERROR: Could not find outcome group with ID: ", group_id)
 
 
 func get_full_description() -> String:
@@ -48,6 +53,9 @@ func calculate_final_outcome(client_stats: Dictionary) -> Dictionary:
 	var best_outcome: Dictionary
 	var highest_score = -INF
 
+	if potential_outcomes.is_empty():
+		return {"description": "The client's future remains shrouded in mystery."}
+		
 	for outcome in potential_outcomes:
 		var current_score = 0.0
 		for stat_name in outcome.likelihood_formula:
@@ -59,9 +67,4 @@ func calculate_final_outcome(client_stats: Dictionary) -> Dictionary:
 			highest_score = current_score
 			best_outcome = outcome
 			
-	if not best_outcome:
-		return {"description": "The client's future remains shrouded in mystery."}
-	
-	# This line is now commented out.
-	# print("Outcome calculated. Highest score: %f, Winning Outcome ID: %s" % [highest_score, best_outcome.outcome_id])
 	return best_outcome

@@ -1,31 +1,28 @@
-# DataManager.gd
+# DataManager.gd (Updated for Outcome Groups)
 extends Node
 
-# These dictionaries will hold all our game data, keyed by their IDs.
 var client_stat_template: Dictionary = {}
 var cards: Dictionary = {}
 var events: Dictionary = {}
-var feelings: Array = [] # Feelings are checked by range, so an array is fine.
+var feelings: Array = []
 var actions: Dictionary = {}
-var outcomes: Dictionary = {}
+# NEW: This will hold all our outcome groups.
+var outcome_groups: Dictionary = {}
 
 
 func _ready() -> void:
-	# When the game starts, load everything into memory.
 	print("DataManager: Loading all game data...")
 	_load_client_template()
 	_load_tarot_deck()
 	_load_events()
 	_load_feelings()
 	_load_actions()
-	_load_outcomes()
+	# NEW: Loading the new file.
+	_load_outcome_groups()
 	print("DataManager: All data loaded successfully!")
 
 
-# --- Private Loading Functions ---
-
 func _load_json(path: String) -> Variant:
-	# Helper function to open and parse a JSON file.
 	var file = FileAccess.open(path, FileAccess.READ)
 	if file == null:
 		print("ERROR: Failed to load JSON file at path: ", path)
@@ -33,41 +30,36 @@ func _load_json(path: String) -> Variant:
 	return JSON.parse_string(file.get_as_text())
 
 
-func _load_client_template() -> void:
+func _load_client_template():
 	var data = _load_json("res://game_data/client_stats_template.json")
 	if data:
-		client_stat_template = data["stats"]
+		client_stat_template = data.stats
 
-
-func _load_tarot_deck() -> void:
+func _load_tarot_deck():
 	var data = _load_json("res://game_data/tarot_deck.json")
 	if data:
-		for card_data in data["cards"]:
-			cards[card_data["name"]] = card_data # Use card name as the key
+		for card_data in data.cards:
+			cards[card_data.name] = card_data
 
-
-func _load_events() -> void:
+func _load_events():
 	var data = _load_json("res://game_data/events.json")
 	if data:
-		for event_data in data["events"]:
-			events[event_data["event_id"]] = event_data
+		for event_data in data.events:
+			events[event_data.event_id] = event_data
 
-
-func _load_feelings() -> void:
+func _load_feelings():
 	var data = _load_json("res://game_data/feelings.json")
 	if data:
-		feelings = data["feelings"]
+		feelings = data.feelings
 
-
-func _load_actions() -> void:
+func _load_actions():
 	var data = _load_json("res://game_data/actions.json")
 	if data:
-		for action_data in data["actions"]:
-			actions[action_data["action_id"]] = action_data
+		for action_data in data.actions:
+			actions[action_data.action_id] = action_data
 
-
-func _load_outcomes() -> void:
-	var data = _load_json("res://game_data/potential_outcomes.json")
+# NEW: Function to load the outcome groups.
+func _load_outcome_groups():
+	var data = _load_json("res://game_data/outcome_groups.json")
 	if data:
-		for outcome_data in data["outcomes"]:
-			outcomes[outcome_data["outcome_id"]] = outcome_data
+		outcome_groups = data.outcome_groups

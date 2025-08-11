@@ -79,6 +79,14 @@
 		"I feel like I need to build a wall around myself, but how?",
 		"What's the best way to defend my heart in this situation?"
 	  ]
+	},
+	{
+	  "action_id": "focus_on_self",
+	  "descriptions": [
+		"Should I just ignore the problem for a bit and focus on my own well-being?",
+		"Maybe the best thing I can do right now is just take care of my own needs.",
+		"I'm thinking of focusing on self-care, but I feel guilty about it."
+	  ]
 	}
   ]
 }
